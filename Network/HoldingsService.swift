@@ -26,15 +26,16 @@ enum HoldingsService {
             guard let data = data else { return }
 
             do {
-                let holdings = try JSONDecoder().decode([Holding].self, from: data)
+                let response = try JSONDecoder().decode(HoldingsResponse.self, from: data)
                 DispatchQueue.main.async {
-                    completion(.success(holdings))
+                    completion(.success(response.data.userHolding))
                 }
             } catch {
                 DispatchQueue.main.async {
                     completion(.failure(error))
                 }
             }
+
         }.resume()
     }
 }

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD542EFC008B00C24758 /* HoldingsViewController.swift */; };
+		4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD5A2EFC03D700C24758 /* HoldingsViewModel.swift */; };
+		4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD552EFC013200C24758 /* Holding.swift */; };
+		4761BD5D2EFC05BA00C24758 /* HoldingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD592EFC032500C24758 /* HoldingsService.swift */; };
+		4761BD5F2EFC063900C24758 /* HoldingsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD5E2EFC063800C24758 /* HoldingsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 		4761BD542EFC008B00C24758 /* HoldingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewController.swift; sourceTree = "<group>"; };
 		4761BD552EFC013200C24758 /* Holding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holding.swift; sourceTree = "<group>"; };
 		4761BD592EFC032500C24758 /* HoldingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsService.swift; sourceTree = "<group>"; };
+		4761BD5A2EFC03D700C24758 /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		4761BD5E2EFC063800C24758 /* HoldingsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -120,6 +126,7 @@
 		4761BD4F2EFC003B00C24758 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4761BD5E2EFC063800C24758 /* HoldingsResponse.swift */,
 				4761BD552EFC013200C24758 /* Holding.swift */,
 			);
 			path = Model;
@@ -136,6 +143,7 @@
 		4761BD512EFC005100C24758 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				4761BD5A2EFC03D700C24758 /* HoldingsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -299,7 +307,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4761BD5F2EFC063900C24758 /* HoldingsResponse.swift in Sources */,
+				4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */,
 				4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */,
+				4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */,
+				4761BD5D2EFC05BA00C24758 /* HoldingsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
