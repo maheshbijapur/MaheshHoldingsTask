@@ -52,4 +52,9 @@ final class HoldingsViewModel {
             $0 + (($1.close - $1.ltp) * Double($1.quantity))
         }
     }
+    
+    // MARK: - For Unit Testing
+    func setHoldings(_ holdings: [Holding]) {
+        self.holdings = holdings
+    }    
 }
