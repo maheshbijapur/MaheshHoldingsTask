@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		470D95E82EFC1D7600CF660D /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D95E72EFC1D4300CF660D /* CurrencyFormatter.swift */; };
-		470D95EA2EFC252700CF660D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 470D95E92EFC252300CF660D /* README.md */; };
 		4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD542EFC008B00C24758 /* HoldingsViewController.swift */; };
 		4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD5A2EFC03D700C24758 /* HoldingsViewModel.swift */; };
 		4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD552EFC013200C24758 /* Holding.swift */; };
@@ -325,7 +324,6 @@
 				4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */,
 				4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */,
 				4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */,
-				470D95EA2EFC252700CF660D /* README.md in Sources */,
 				4761BD762EFC181B00C24758 /* PortfolioSummaryView.swift in Sources */,
 				4761BD5D2EFC05BA00C24758 /* HoldingsService.swift in Sources */,
 			);
