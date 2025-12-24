@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		470D95E82EFC1D7600CF660D /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D95E72EFC1D4300CF660D /* CurrencyFormatter.swift */; };
+		470D95EA2EFC252700CF660D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 470D95E92EFC252300CF660D /* README.md */; };
 		4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD542EFC008B00C24758 /* HoldingsViewController.swift */; };
 		4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD5A2EFC03D700C24758 /* HoldingsViewModel.swift */; };
 		4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4761BD552EFC013200C24758 /* Holding.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		470D95E72EFC1D4300CF660D /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		470D95E92EFC252300CF660D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 		4761BD1B2EFBFD7200C24758 /* MaheshHoldingsTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaheshHoldingsTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4761BD312EFBFD7300C24758 /* MaheshHoldingsTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaheshHoldingsTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4761BD3B2EFBFD7300C24758 /* MaheshHoldingsTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaheshHoldingsTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 		4761BD122EFBFD7200C24758 = {
 			isa = PBXGroup;
 			children = (
+				470D95E92EFC252300CF660D /* README.md */,
 				4761BD532EFC006500C24758 /* Utils */,
 				4761BD522EFC005A00C24758 /* Views */,
 				4761BD512EFC005100C24758 /* ViewModels */,
@@ -322,6 +325,7 @@
 				4761BD5B2EFC058C00C24758 /* HoldingsViewModel.swift in Sources */,
 				4761BD562EFC01F900C24758 /* HoldingsViewController.swift in Sources */,
 				4761BD5C2EFC05AE00C24758 /* Holding.swift in Sources */,
+				470D95EA2EFC252700CF660D /* README.md in Sources */,
 				4761BD762EFC181B00C24758 /* PortfolioSummaryView.swift in Sources */,
 				4761BD5D2EFC05BA00C24758 /* HoldingsService.swift in Sources */,
 			);
